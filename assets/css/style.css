@@ -9,16 +9,18 @@ body {
 	width: 70px;
 	height: 70px;
 }
-.name {
+.name  {
 	height: 80px;
-	font-size: 40px;
 	background: #4aaaa5;
-	padding-top: 25px;
+	
 	color: #ffffff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
-.name a:hover {
-	background: #4aaaa5;
+.name a {
+	text-decoration: none;
+	padding: 25px;
+	font-size: 40px;
+	color: #ffffff;
 }
 
 #bio-image {
@@ -52,7 +54,8 @@ body {
 .main-content {
 	border: 1px solid #dddddd;
 	background: #ffffff;
-	height: 400px;
+	height: 450px;
+	margin-bottom: 20px;
 	
 }
 .footer {
@@ -67,4 +70,12 @@ body {
 .footer p {
 	text-align: center;
 
+}
+.submit {
+	width: 115px;
+	height: 40px;
+	background: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	border: none;
 }
